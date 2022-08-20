@@ -1,0 +1,28 @@
+body{
+background-color: orange;
+}
+h1{
+background-color: aqua;
+color: blue;
+}
+h4{
+padding-top: 10px;
+color: crimson;
+}
+#show_sketch{
+float: right;
+}
+canvas{
+margin-top: 50px;
+border: 10px;
+border-radius: 5px;
+border-color: gainsboro;
+border-style: dotted;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow:1px 1px 38px aqua;}
+to{box-shadow:1px 1px 38px red;}
+}
